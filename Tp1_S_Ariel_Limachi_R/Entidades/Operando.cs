@@ -9,18 +9,21 @@ namespace Entidades
     public class Operando
     {
         private double numero;
-        public Operando()
-        {
-            this.numero = 0;
-        }
-        public Operando(string strNum):this()
+
+        public Operando(string strNum)
         {
             Numero = strNum;
         }
-        public Operando(double num):this(num.ToString())
+        public Operando(double num) : this(num.ToString())
         {
 
         }
+        public Operando():this(0)
+        {
+
+        }
+        
+       
         /// <summary>
         /// valida que el string pasado sea un numero retorna 0 en casi de no serlo
         /// </summary>
