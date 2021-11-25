@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pc\\source\\repos\\Tp1_S_Ariel_Limachi_R\\MiCalculadora\\MiCalculadora.csproj": {}
+    "C:\\Users\\Pc\\Desktop\\tps_laboratorio_ii\\Tp1_S_Ariel_Limachi_R\\MiCalculadora\\MiCalculadora.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pc\\source\\repos\\Tp1_S_Ariel_Limachi_R\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\Pc\\Desktop\\tps_laboratorio_ii\\Tp1_S_Ariel_Limachi_R\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pc\\source\\repos\\Tp1_S_Ariel_Limachi_R\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\Pc\\Desktop\\tps_laboratorio_ii\\Tp1_S_Ariel_Limachi_R\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Users\\Pc\\source\\repos\\Tp1_S_Ariel_Limachi_R\\Entidades\\Entidades.csproj",
+        "projectPath": "C:\\Users\\Pc\\Desktop\\tps_laboratorio_ii\\Tp1_S_Ariel_Limachi_R\\Entidades\\Entidades.csproj",
         "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pc\\source\\repos\\Tp1_S_Ariel_Limachi_R\\Entidades\\obj\\",
+        "outputPath": "C:\\Users\\Pc\\Desktop\\tps_laboratorio_ii\\Tp1_S_Ariel_Limachi_R\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\Pc\\source\\repos\\Tp1_S_Ariel_Limachi_R\\MiCalculadora\\MiCalculadora.csproj": {
+    "C:\\Users\\Pc\\Desktop\\tps_laboratorio_ii\\Tp1_S_Ariel_Limachi_R\\MiCalculadora\\MiCalculadora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pc\\source\\repos\\Tp1_S_Ariel_Limachi_R\\MiCalculadora\\MiCalculadora.csproj",
+        "projectUniqueName": "C:\\Users\\Pc\\Desktop\\tps_laboratorio_ii\\Tp1_S_Ariel_Limachi_R\\MiCalculadora\\MiCalculadora.csproj",
         "projectName": "MiCalculadora",
-        "projectPath": "C:\\Users\\Pc\\source\\repos\\Tp1_S_Ariel_Limachi_R\\MiCalculadora\\MiCalculadora.csproj",
+        "projectPath": "C:\\Users\\Pc\\Desktop\\tps_laboratorio_ii\\Tp1_S_Ariel_Limachi_R\\MiCalculadora\\MiCalculadora.csproj",
         "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pc\\source\\repos\\Tp1_S_Ariel_Limachi_R\\MiCalculadora\\obj\\",
+        "outputPath": "C:\\Users\\Pc\\Desktop\\tps_laboratorio_ii\\Tp1_S_Ariel_Limachi_R\\MiCalculadora\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -90,8 +90,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\Pc\\source\\repos\\Tp1_S_Ariel_Limachi_R\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\Pc\\source\\repos\\Tp1_S_Ariel_Limachi_R\\Entidades\\Entidades.csproj"
+              "C:\\Users\\Pc\\Desktop\\tps_laboratorio_ii\\Tp1_S_Ariel_Limachi_R\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\Pc\\Desktop\\tps_laboratorio_ii\\Tp1_S_Ariel_Limachi_R\\Entidades\\Entidades.csproj"
               }
             }
           }

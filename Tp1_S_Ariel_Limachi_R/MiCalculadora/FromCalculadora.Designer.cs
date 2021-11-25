@@ -37,8 +37,8 @@ namespace MiCalculadora
             this.btnCerrar = new System.Windows.Forms.Button();
             this.btnConvertirABinario = new System.Windows.Forms.Button();
             this.btnConvertirADecimal = new System.Windows.Forms.Button();
-            this.lblResultado = new System.Windows.Forms.Label();
             this.lstOperaciones = new System.Windows.Forms.ListBox();
+            this.txtResultado = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtNum1
@@ -121,33 +121,32 @@ namespace MiCalculadora
             this.btnConvertirADecimal.UseVisualStyleBackColor = true;
             this.btnConvertirADecimal.Click += new System.EventHandler(this.btnConvertirADecimal_Click);
             // 
-            // lblResultado
-            // 
-            this.lblResultado.AutoSize = true;
-            this.lblResultado.Location = new System.Drawing.Point(225, 18);
-            this.lblResultado.Name = "lblResultado";
-            this.lblResultado.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblResultado.Size = new System.Drawing.Size(13, 15);
-            this.lblResultado.TabIndex = 9;
-            this.lblResultado.Text = "0";
-            // 
             // lstOperaciones
             // 
             this.lstOperaciones.FormattingEnabled = true;
             this.lstOperaciones.ItemHeight = 15;
             this.lstOperaciones.Location = new System.Drawing.Point(313, 18);
             this.lstOperaciones.Name = "lstOperaciones";
-            this.lstOperaciones.Size = new System.Drawing.Size(100, 109);
+            this.lstOperaciones.Size = new System.Drawing.Size(140, 109);
             this.lstOperaciones.TabIndex = 10;
             this.lstOperaciones.TabStop = false;
+            // 
+            // txtResultado
+            // 
+            this.txtResultado.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtResultado.Location = new System.Drawing.Point(183, 18);
+            this.txtResultado.Name = "txtResultado";
+            this.txtResultado.Size = new System.Drawing.Size(124, 16);
+            this.txtResultado.TabIndex = 11;
+            this.txtResultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // FromCalculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(423, 142);
+            this.ClientSize = new System.Drawing.Size(465, 143);
+            this.Controls.Add(this.txtResultado);
             this.Controls.Add(this.lstOperaciones);
-            this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnConvertirADecimal);
             this.Controls.Add(this.btnConvertirABinario);
             this.Controls.Add(this.btnCerrar);
@@ -162,6 +161,7 @@ namespace MiCalculadora
             this.Name = "FromCalculadora";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora De Sergio Ariel Limachi Ramos del Curso 2°E";
+            this.Load += new System.EventHandler(this.FromCalculadora_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -177,8 +177,8 @@ namespace MiCalculadora
         private System.Windows.Forms.Button btnCerrar;
         private System.Windows.Forms.Button btnConvertirABinario;
         private System.Windows.Forms.Button btnConvertirADecimal;
-        private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.ListBox lstOperaciones;
+        private System.Windows.Forms.TextBox txtResultado;
     }
 }
 

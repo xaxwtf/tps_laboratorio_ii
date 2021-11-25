@@ -26,7 +26,7 @@ namespace Entidades
         /// </summary>
         /// <param name="strNumero"></param> es el supuesto numero en formato string
         /// <returns></returns>
-        public double ValidarOpeando(string strNumero)
+        public double ValidarOperando(string strNumero)
         {
             double r = 0;
             if(!double.TryParse(strNumero,out r))
@@ -41,7 +41,7 @@ namespace Entidades
         /// </summary>
         public string Numero { 
             set { 
-                this.numero = ValidarOpeando(value.ToString()); 
+                this.numero = ValidarOperando(value); 
             } 
         } 
 
@@ -77,23 +77,22 @@ namespace Entidades
             int auxNum;
             long digito = 0;
             long reAux = 0;
-            num = double.Parse(numero);
-            auxNum = Convert.ToInt32(num);
-            if (num>=0)
-            {
-                
-                if (auxNum > num)
+                num = double.Parse(numero);
+                auxNum = Convert.ToInt32(num);
+                if (num >= 0)
                 {
-                    auxNum = auxNum - 1;
+
+                    if (auxNum > num)
+                    {
+                        auxNum = auxNum - 1;
+                    }
+                    for (int i = auxNum % 2, j = 0; auxNum > 0; auxNum /= 2, i = auxNum % 2, j++)
+                    {
+                        digito = i % 2;
+                        reAux += digito * (long)Math.Pow(10, j);
+                    }
+                    r = reAux.ToString();
                 }
-                for (int i = auxNum % 2, j = 0; auxNum > 0; auxNum /= 2, i = auxNum % 2, j++)
-                {
-                    digito = i % 2;
-                    reAux += digito * (long)Math.Pow(10, j);
-                }
-                r = reAux.ToString();
-            }
-            
             return r;
         }
 
@@ -116,6 +115,7 @@ namespace Entidades
         public string BinarioDecimal(string strBinario)
         {
             double r = 0;
+            string retorno = "Valor Invalido";
             int j = strBinario.Length-1;
             if (EsBinario(strBinario))
             {
@@ -127,8 +127,9 @@ namespace Entidades
                     }
                     j--;
                 }
+                retorno = r.ToString();
             }
-            return r.ToString();
+            return retorno;
         }
 
         public static double operator +(Operando n1 , Operando n2)

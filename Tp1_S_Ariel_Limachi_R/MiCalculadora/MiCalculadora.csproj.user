@@ -4,8 +4,5 @@
     <Compile Update="FromCalculadora.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FromMenuCerrar.cs">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
 </Project>
