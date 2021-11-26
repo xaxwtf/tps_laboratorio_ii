@@ -35,6 +35,7 @@ namespace Entidades
         {
             get
             {
+
                 return ETamanio.Mediano;
             }
         }
