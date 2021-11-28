@@ -96,13 +96,6 @@ namespace TP_3_Ventas
             return !(a == b);
         }
 
-        /// <summary>
-        /// Obtiene una determinado numero de producto de un stock
-        /// </summary>
-        /// <param name="cuantos">la cantidad de productos que obtendra</param>
-        /// <returns>el producto obtenido del stock</returns>
-        public abstract Producto Reservar(int cuantos);
-
 
         /// <summary>
         /// Agrega Productos a un stock de productos

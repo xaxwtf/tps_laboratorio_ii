@@ -8,7 +8,7 @@ using ExepcionesPropias;
 
 namespace TP_3_Ventas
 {
-    public class Factura
+    public class Factura:ITotales
     {
         protected int nro;
         protected string nroIdentificacionFiscal;
@@ -80,18 +80,7 @@ namespace TP_3_Ventas
             return id;
         }
 
-        /// <summary>
-        /// Calcula el total de un Factura sumando todos los importes de los productos
-        /// </summary>
-        public void CalcularTotalFacturado()
-        {
-            double total = 0;
-            foreach (Producto aux in this.listaDeCompras)
-            {
-                total = total + (aux.Precio * aux.CantUnidades);
-            }
-            this.total = total;
-        }
+        
 
         /// <summary>
         /// calculta el total de cada una de las facturas de una lista de facturas
@@ -101,8 +90,21 @@ namespace TP_3_Ventas
         {
             foreach(Factura aux in lista)
             {
-                aux.CalcularTotalFacturado();
+                aux.ObtenerTotal();
             }
+        }
+
+        /// <summary>
+        /// Calcula el total de un Factura sumando todos los importes de los productos
+        /// </summary>
+        public void ObtenerTotal()
+        {
+            double total = 0;
+            foreach (Producto aux in this.listaDeCompras)
+            {
+                total = total + (aux.Precio * aux.CantUnidades);
+            }
+            this.total = total;
         }
 
         /// <summary>

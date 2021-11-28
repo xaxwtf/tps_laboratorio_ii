@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace TP_3_Ventas
 {
-    public  class AdministracionVentas
+    public  class AdministracionVentas:ITotales
     {
         public  List<Factura> facturacion;
         private string archivoCargado;
+        private double TotalFacturadoEnElPeriodo;
         public AdministracionVentas()
         {
             facturacion = new List<Factura>();
@@ -58,11 +59,12 @@ namespace TP_3_Ventas
         {
             StringBuilder sb = new StringBuilder();
             List<string> localidades = this.ObtenerTodasLasLocalidades();
-            int nro = 0;
+            this.ObtenerTotal();
+            sb.AppendFormat("Total Ventas del Registro: {0} Total Facturacion: {1}  \n", this.facturacion.Count,this.TotalFacturadoEnElPeriodo);
             foreach( string loc in localidades)
             {
-                nro++;
-                sb.AppendFormat("{0}\t{1}",nro,this.ObtenerInformeDeCiertaLocalidad(loc));
+                sb.AppendLine("___________________________________________________________");
+                sb.AppendFormat("{0}",this.ObtenerInformeDeCiertaLocalidad(loc));
             }
             return sb.ToString();
         }
@@ -77,9 +79,8 @@ namespace TP_3_Ventas
             List<Persona> Vendedores = obentenerTodosLosVendedores();
             foreach(Persona aux in Vendedores)
             { 
-                sb.AppendFormat("\n =>\tEmpleado: {0:40}  Cant Ventas Realizadas: {1}", aux.Mostrar(), this.VentasXEmpleado(aux));
+                sb.AppendFormat("\n Empleado: {0:-120}Nro Ventas Realizadas: {1}\tPorcentaje de Ventas Realizadas: {2:N2}%", aux.Mostrar(), this.VentasXEmpleado(aux),(((float)this.VentasXEmpleado(aux)/this.facturacion.Count)*100));
             }
-            
             return sb.ToString();
         }
 
@@ -167,11 +168,7 @@ namespace TP_3_Ventas
             List<Factura> facturacionDeXlocalidad= this.FiltarFacturasDeCiertaLocalidad(localidad);
             totalFacturado = AdministracionVentas.CalcularTotalRegistro(facturacionDeXlocalidad);
             promedio = totalFacturado / (double)facturacionDeXlocalidad.Count;
-            sb.AppendFormat("\t{0}  TotalFacturado: {1}  NroVentas:{2}  Promedio de Ventas: {3}\n", localidad, totalFacturado, facturacionDeXlocalidad.Count, promedio);
-            foreach(Factura aux in facturacionDeXlocalidad)
-            {
-                sb.AppendFormat("\t\t {0}", aux.ToString());
-            }
+            sb.AppendFormat(" LOCALIDAD: {0}  TotalFacturado: {1} \n Nro ventas de realizadas: {2}  \n Porcentaje de Ventas Sobre el Total: {3:N2}%  \n Promedio de Ventas: {4}\n Nro de Unidades vendidas: {5}\n", localidad, totalFacturado, facturacionDeXlocalidad.Count,((float)facturacionDeXlocalidad.Count/this.facturacion.Count)*100, promedio, CantidadUnidadesProductoVendidas(facturacionDeXlocalidad));
             return sb.ToString();
         }
 
@@ -249,6 +246,18 @@ namespace TP_3_Ventas
             }
             return unidadesVendidas;
         }
+        private static int CantidadUnidadesProductoVendidas(List<Factura> lista)
+        {
+            int unidadesVendidas = 0;
+            foreach (Factura aux in lista)
+            {
+                foreach (Producto P in aux.DetalleDeCompra)
+                {
+                     unidadesVendidas += P.CantUnidades;
+                }
+            }
+            return unidadesVendidas;
+        }
 
         /// <summary>
         /// Genera un informe  la cantidad de Productos vendidos de cada producto
@@ -308,19 +317,59 @@ namespace TP_3_Ventas
         public string CantidadProductosVendidosEnDeterminadoMes(int mes)
         {
             StringBuilder sb = new StringBuilder();
+            string mesString="MesInexistente";
             List<Factura> ventasMes;
                 ventasMes = ObtenerVentasDeCiertoMes(facturacion, mes);
+            switch (mes)
+            {
+                case 1:
+                    mesString = "Enero";
+                    break;
+                case 2:
+                    mesString = "Febrero";
+                    break;
+                case 3:
+                    mesString = "Marzo";
+                    break;
+                case 4:
+                    mesString = "Abril";
+                    break;
+                case 5:
+                    mesString = "Mayo";
+                    break;
+                case 6:
+                    mesString = "Junio";
+                    break;
+                case 7:
+                    mesString = "Julio";
+                    break;
+                case 8:
+                    mesString = "Agosto";
+                    break;
+                case 9:
+                    mesString = "Septiembre";
+                    break;
+                case 10:
+                    mesString = "Octubre";
+                    break;
+                case 11:
+                    mesString = "Noviembre";
+                    break;
+                case 12:
+                    mesString = "Diciembre";
+                    break;
+            }
+
                 if (ventasMes.Count > 0)
                 {
-                    sb.AppendFormat("\nMes: {0}  NroTotal de Ventas:{1}",mes, ventasMes.Count);
-                    sb.AppendFormat("\nAlimento Balanceado para Gatos   Nro de Unidades Vendidas: {0}", CantidadVendidaxTipoProducto(ventasMes, "Alimento Balanceado para Gatos"));
-                    sb.AppendFormat("\nAlimento Balanceado para Perro   Nro de Unidades Vendidas: {0}", CantidadVendidaxTipoProducto(ventasMes, "Alimento Balanceado para Perros"));
+                    sb.AppendFormat("\n Mes: {0} \n NroTotal de Ventas: {1}\n Nro de UnidadesVendidas:{2}",mesString,ventasMes.Count,CantidadUnidadesProductoVendidas(ventasMes));
+                    sb.AppendFormat("\n Alimento Balanceado para Gatos\t Unidades:{0}\t {1:N2}%", CantidadVendidaxTipoProducto(ventasMes, "Alimento Balanceado para Gatos"),((CantidadVendidaxTipoProducto(ventasMes,"Alimento Balanceado para Gatos")/(float)CantidadUnidadesProductoVendidas(ventasMes))*100));
+                    sb.AppendFormat("\n Alimento Balanceado para Perro\t Unidades:{0}\t {1:N2}%", CantidadVendidaxTipoProducto(ventasMes, "Alimento Balanceado para Perros"),((CantidadVendidaxTipoProducto(ventasMes, "Alimento Balanceado para Perros")/(float)CantidadUnidadesProductoVendidas(ventasMes))*100));
 
                 }
                 else
                 {
-                    sb.AppendFormat("\nMes: {0}  NroTotal de Ventas:{1}", mes, ventasMes.Count);
-                    sb.AppendFormat("\n No hay Ventas Realizadas este Mes");
+                    sb.AppendFormat("\n Mes: {0} \n NroTotal de Ventas: No hay Ventas Registradas este Mes!!", mesString);
                 }
             return sb.ToString();
         }
@@ -336,6 +385,7 @@ namespace TP_3_Ventas
             for(int i = 1; i < 13; i++)
             {
                 sb.AppendFormat(CantidadProductosVendidosEnDeterminadoMes(i));
+                sb.AppendLine("\n------------------------------------------------------------------------");
             }
             return sb.ToString();
         }
@@ -347,6 +397,16 @@ namespace TP_3_Ventas
         public bool ActualizarRegistro()
         {
             return Archivos.Save<List<Factura>>(this.archivoCargado, this.facturacion);
+        }
+
+        public void ObtenerTotal()
+        {
+            double total = 0;
+            foreach(Factura aux in this.facturacion)
+            {
+                total += aux.Total;
+            }
+            this.TotalFacturadoEnElPeriodo = total;
         }
     }
 }

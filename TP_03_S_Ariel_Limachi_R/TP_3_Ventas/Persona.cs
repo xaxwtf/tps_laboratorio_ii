@@ -32,7 +32,7 @@ namespace TP_3_Ventas
         /// <returns>un string con la informacion</returns>
         public string Mostrar() {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("{0,-14} {1,-14} Cuil:{2,-14} con localidad en:{3,-30}", this.apellido, this.nombre, this.cuil, this.localidad);
+            sb.AppendFormat("{0,-20}\t{1,-20}\tCuil: {2,-16}\tLocalidad: {3,-30}\t", this.apellido, this.nombre, this.cuil, this.localidad);
             return sb.ToString();
         }
         public string Nombre { get { return this.nombre; } set { this.nombre = value; } }

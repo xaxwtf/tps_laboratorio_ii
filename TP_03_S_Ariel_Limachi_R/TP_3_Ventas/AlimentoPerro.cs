@@ -16,10 +16,15 @@ namespace TP_3_Ventas
         {
 
         }
+        /// <summary>
+        /// muestra todos los datos de un Producto
+        /// </summary>
+        /// <returns>un string con la informacion</returns>
         protected override string Mostrar()
         {
             return base.Mostrar();
         }
+
         public override string ToString()
         {
             return this.Mostrar();
@@ -33,17 +38,17 @@ namespace TP_3_Ventas
             }
             return np;
         }
+
+        /// <summary>
+        /// obtiene un producto de un stock de productos
+        /// </summary>
+        /// <param name="cuantos">es la cantidad de productos que obtendra</param>
+        /// <returns>retorna una deteminada cantidad e productos</returns>
         public override Producto GetProducto(int cuantos)
         {
             return this - cuantos;
         }
-        public override Producto Reservar(int cuantos)
-        {
-            AlimentoPerro nuevo = (AlimentoPerro)this.Clone();
-            nuevo.cantDisponible = cuantos;
-            this.cantDisponible -= cuantos;
-            return nuevo;
-        }
+
         public override Producto Clone()
         {
             return new AlimentoPerro(this.precio, this.marca, this.cantDisponible, this.tipo, this.kilos);

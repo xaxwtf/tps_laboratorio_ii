@@ -28,3 +28,18 @@ C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\TP_3_Ve
 C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\TP_3_Ventas\obj\Debug\net5.0\TP_3_Ventas.dll
 C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\TP_3_Ventas\obj\Debug\net5.0\ref\TP_3_Ventas.dll
 C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\TP_3_Ventas\obj\Debug\net5.0\TP_3_Ventas.pdb
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\TP_3_Ventas\bin\Debug\net5.0\TP_3_Ventas.deps.json
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\TP_3_Ventas\bin\Debug\net5.0\TP_3_Ventas.dll
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\TP_3_Ventas\bin\Debug\net5.0\ref\TP_3_Ventas.dll
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\TP_3_Ventas\bin\Debug\net5.0\TP_3_Ventas.pdb
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\TP_3_Ventas\bin\Debug\net5.0\ExepcionesPropias.dll
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\TP_3_Ventas\bin\Debug\net5.0\ExepcionesPropias.pdb
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\TP_3_Ventas\obj\Debug\net5.0\TP_3_Ventas.csproj.AssemblyReference.cache
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\TP_3_Ventas\obj\Debug\net5.0\TP_3_Ventas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\TP_3_Ventas\obj\Debug\net5.0\TP_3_Ventas.AssemblyInfoInputs.cache
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\TP_3_Ventas\obj\Debug\net5.0\TP_3_Ventas.AssemblyInfo.cs
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\TP_3_Ventas\obj\Debug\net5.0\TP_3_Ventas.csproj.CoreCompileInputs.cache
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\TP_3_Ventas\obj\Debug\net5.0\TP_3_Ventas.csproj.CopyComplete
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\TP_3_Ventas\obj\Debug\net5.0\TP_3_Ventas.dll
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\TP_3_Ventas\obj\Debug\net5.0\ref\TP_3_Ventas.dll
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\TP_3_Ventas\obj\Debug\net5.0\TP_3_Ventas.pdb

@@ -25,18 +25,22 @@ namespace TP_3_Ventas
         {
             return this.Mostrar();
         }
-
+        /// <summary>
+        /// obtiene un producto de un stock de productos(hace una copia del objeto con un determinado tamaño)
+        /// </summary>
+        /// <param name="cuantos">es la cantidad de unidades que tendra el producto</param>
+        /// <returns>un objeto del tipo producto del tamaño indicado</returns>
         public override Producto GetProducto(int cuantos)
         {
             return this - cuantos;
         }
-        public override Producto Reservar(int cuantos)
-        {
-            AlimentoGato nuevo = (AlimentoGato)this.Clone();
-            nuevo.cantDisponible = cuantos;
-            this.cantDisponible = this.cantDisponible - cuantos;
-            return nuevo;
-        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="cuantos"></param>
+        /// <returns></returns>
+        /// 
         public override Producto Clone()
         {
             return new AlimentoGato(this.precio, this.marca, this.cantDisponible, this.tipo, this.kilos);

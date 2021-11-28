@@ -80,6 +80,10 @@ namespace TP_3_Ventas
             NuevoRegistro.Add(nF6);
             return NuevoRegistro;
         }
+        /// <summary>
+        /// es una lista de Productos Harcodeada
+        /// </summary>
+        /// <returns>dicha lista</returns>
         public static List<Producto> ListaHarcodeada1()
         {
             List<Producto> ordenCompra1 = new List<Producto>();
@@ -95,6 +99,11 @@ namespace TP_3_Ventas
             ordenCompra1.Add(nP5);
             return ordenCompra1;
         }
+
+        /// <summary>
+        /// es una lista de Productos Harcodeada
+        /// </summary>
+        /// <returns>dicha lista</returns>
         public static List<Producto> ListaHarcodeada2()
         {
             List<Producto> ordenCompra2 = new List<Producto>();
@@ -110,6 +119,11 @@ namespace TP_3_Ventas
             ordenCompra2.Add(nP10);
             return ordenCompra2;
         }
+
+        /// <summary>
+        /// es una lista de Productos Harcodeada
+        /// </summary>
+        /// <returns>dicha lista</returns>
         public static List<Producto> ListaHarcodeada3()
         {
             List<Producto> ordenCompra3 = new List<Producto>();
@@ -125,6 +139,11 @@ namespace TP_3_Ventas
             ordenCompra3.Add(producto15);
             return ordenCompra3;
         }
+
+        /// <summary>
+        /// harcodea informacion, crea una carpeta en el escritorio y un archivo
+        /// </summary>
+        /// <returns></returns>
         public static void HarcodearCarpetaEInfo()
         {
             List<Factura> RegistroVentasPetShop = GeneradorRegistro.generarLista();

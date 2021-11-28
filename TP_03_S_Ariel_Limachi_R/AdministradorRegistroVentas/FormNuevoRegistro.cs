@@ -35,17 +35,17 @@ namespace AdministradorRegistroVentas
                         throw new DetalleDeCompraVacioException();
                     case 0:
                         unRegistro = new Factura("2525252525", GeneradorRegistro.ListaHarcodeada1(), vendedorGenerico, nuevo);
-                        unRegistro.CalcularTotalFacturado();
+                        unRegistro.ObtenerTotal();
                         registros.facturacion.Add(unRegistro);
                         break;
                     case 1:
                         unRegistro = new Factura("2525252525", GeneradorRegistro.ListaHarcodeada2(), vendedorGenerico, nuevo);
-                        unRegistro.CalcularTotalFacturado();
+                        unRegistro.ObtenerTotal();
                         registros.facturacion.Add(unRegistro);
                         break;
                     case 2:
                         unRegistro = new Factura("2525252525", GeneradorRegistro.ListaHarcodeada3(), vendedorGenerico, nuevo);
-                        unRegistro.CalcularTotalFacturado();
+                        unRegistro.ObtenerTotal();
                         registros.facturacion.Add(unRegistro);
                         break;
                 }

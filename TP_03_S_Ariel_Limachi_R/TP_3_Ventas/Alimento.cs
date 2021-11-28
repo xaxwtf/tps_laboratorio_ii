@@ -21,7 +21,10 @@ namespace TP_3_Ventas
         }
         public ETipo Tipo { get { return this.tipo; } set { this.tipo = value; } }
         public double Peso { get { return this.kilos; } set { this.kilos = value; } }
-
+        /// <summary>
+        /// muestra la informacion de un Alimento
+        /// </summary>
+        /// <returns>retorna un string con la informacion</returns>
         protected override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
