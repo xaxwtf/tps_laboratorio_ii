@@ -1,0 +1,36 @@
+C:\Users\Pc\source\repos\TP_3_Ventas\ExepcionesPropias\bin\Debug\net5.0\ExepcionesPropias.deps.json
+C:\Users\Pc\source\repos\TP_3_Ventas\ExepcionesPropias\bin\Debug\net5.0\ExepcionesPropias.dll
+C:\Users\Pc\source\repos\TP_3_Ventas\ExepcionesPropias\bin\Debug\net5.0\ref\ExepcionesPropias.dll
+C:\Users\Pc\source\repos\TP_3_Ventas\ExepcionesPropias\bin\Debug\net5.0\ExepcionesPropias.pdb
+C:\Users\Pc\source\repos\TP_3_Ventas\ExepcionesPropias\obj\Debug\net5.0\ExepcionesPropias.csproj.AssemblyReference.cache
+C:\Users\Pc\source\repos\TP_3_Ventas\ExepcionesPropias\obj\Debug\net5.0\ExepcionesPropias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pc\source\repos\TP_3_Ventas\ExepcionesPropias\obj\Debug\net5.0\ExepcionesPropias.AssemblyInfoInputs.cache
+C:\Users\Pc\source\repos\TP_3_Ventas\ExepcionesPropias\obj\Debug\net5.0\ExepcionesPropias.AssemblyInfo.cs
+C:\Users\Pc\source\repos\TP_3_Ventas\ExepcionesPropias\obj\Debug\net5.0\ExepcionesPropias.csproj.CoreCompileInputs.cache
+C:\Users\Pc\source\repos\TP_3_Ventas\ExepcionesPropias\obj\Debug\net5.0\ExepcionesPropias.dll
+C:\Users\Pc\source\repos\TP_3_Ventas\ExepcionesPropias\obj\Debug\net5.0\ref\ExepcionesPropias.dll
+C:\Users\Pc\source\repos\TP_3_Ventas\ExepcionesPropias\obj\Debug\net5.0\ExepcionesPropias.pdb
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\ExepcionesPropias\bin\Debug\net5.0\ExepcionesPropias.deps.json
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\ExepcionesPropias\bin\Debug\net5.0\ExepcionesPropias.dll
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\ExepcionesPropias\bin\Debug\net5.0\ref\ExepcionesPropias.dll
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\ExepcionesPropias\bin\Debug\net5.0\ExepcionesPropias.pdb
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\ExepcionesPropias\obj\Debug\net5.0\ExepcionesPropias.csproj.AssemblyReference.cache
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\ExepcionesPropias\obj\Debug\net5.0\ExepcionesPropias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\ExepcionesPropias\obj\Debug\net5.0\ExepcionesPropias.AssemblyInfoInputs.cache
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\ExepcionesPropias\obj\Debug\net5.0\ExepcionesPropias.AssemblyInfo.cs
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\ExepcionesPropias\obj\Debug\net5.0\ExepcionesPropias.csproj.CoreCompileInputs.cache
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\ExepcionesPropias\obj\Debug\net5.0\ExepcionesPropias.dll
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\ExepcionesPropias\obj\Debug\net5.0\ref\ExepcionesPropias.dll
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\ExepcionesPropias\obj\Debug\net5.0\ExepcionesPropias.pdb
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_04_S_Ariel_Limachi_R\ExepcionesPropias\bin\Debug\net5.0\ExepcionesPropias.deps.json
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_04_S_Ariel_Limachi_R\ExepcionesPropias\bin\Debug\net5.0\ExepcionesPropias.dll
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_04_S_Ariel_Limachi_R\ExepcionesPropias\bin\Debug\net5.0\ref\ExepcionesPropias.dll
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_04_S_Ariel_Limachi_R\ExepcionesPropias\bin\Debug\net5.0\ExepcionesPropias.pdb
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_04_S_Ariel_Limachi_R\ExepcionesPropias\obj\Debug\net5.0\ExepcionesPropias.csproj.AssemblyReference.cache
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_04_S_Ariel_Limachi_R\ExepcionesPropias\obj\Debug\net5.0\ExepcionesPropias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_04_S_Ariel_Limachi_R\ExepcionesPropias\obj\Debug\net5.0\ExepcionesPropias.AssemblyInfoInputs.cache
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_04_S_Ariel_Limachi_R\ExepcionesPropias\obj\Debug\net5.0\ExepcionesPropias.AssemblyInfo.cs
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_04_S_Ariel_Limachi_R\ExepcionesPropias\obj\Debug\net5.0\ExepcionesPropias.csproj.CoreCompileInputs.cache
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_04_S_Ariel_Limachi_R\ExepcionesPropias\obj\Debug\net5.0\ExepcionesPropias.dll
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_04_S_Ariel_Limachi_R\ExepcionesPropias\obj\Debug\net5.0\ref\ExepcionesPropias.dll
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_04_S_Ariel_Limachi_R\ExepcionesPropias\obj\Debug\net5.0\ExepcionesPropias.pdb

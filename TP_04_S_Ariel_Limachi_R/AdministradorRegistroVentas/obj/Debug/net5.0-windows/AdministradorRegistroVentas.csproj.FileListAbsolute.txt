@@ -1,0 +1,84 @@
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.csproj.AssemblyReference.cache
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.FromInicio.resources
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.FormMenuAdministradorVentas.resources
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.csproj.GenerateResource.cache
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.AssemblyInfoInputs.cache
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.AssemblyInfo.cs
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.csproj.CoreCompileInputs.cache
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\bin\Debug\net5.0-windows\AdministradorRegistroVentas.exe
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\bin\Debug\net5.0-windows\AdministradorRegistroVentas.deps.json
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\bin\Debug\net5.0-windows\AdministradorRegistroVentas.runtimeconfig.json
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\bin\Debug\net5.0-windows\AdministradorRegistroVentas.runtimeconfig.dev.json
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\bin\Debug\net5.0-windows\AdministradorRegistroVentas.dll
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\bin\Debug\net5.0-windows\ref\AdministradorRegistroVentas.dll
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\bin\Debug\net5.0-windows\AdministradorRegistroVentas.pdb
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\bin\Debug\net5.0-windows\ExepcionesPropias.dll
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\bin\Debug\net5.0-windows\TP_3_Ventas.dll
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\bin\Debug\net5.0-windows\ExepcionesPropias.pdb
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\bin\Debug\net5.0-windows\TP_3_Ventas.pdb
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.csproj.CopyComplete
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.dll
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\obj\Debug\net5.0-windows\ref\AdministradorRegistroVentas.dll
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.pdb
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.genruntimeconfig.cache
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.FormNuevoRegistro.resources
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.FormInforme.resources
+C:\Users\Pc\source\repos\TP_3_Ventas\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.FormGuardarRegistro.resources
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\AdministradorRegistroVentas.exe
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\AdministradorRegistroVentas.deps.json
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\AdministradorRegistroVentas.runtimeconfig.json
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\AdministradorRegistroVentas.runtimeconfig.dev.json
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\AdministradorRegistroVentas.dll
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\ref\AdministradorRegistroVentas.dll
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\AdministradorRegistroVentas.pdb
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\ExepcionesPropias.dll
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\TP_3_Ventas.dll
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\ExepcionesPropias.pdb
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\TP_3_Ventas.pdb
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.csproj.AssemblyReference.cache
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.FormGuardarRegistro.resources
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.FormInforme.resources
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.FromInicio.resources
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.FormMenuAdministradorVentas.resources
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.FormNuevoRegistro.resources
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.csproj.GenerateResource.cache
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.AssemblyInfoInputs.cache
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.AssemblyInfo.cs
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.csproj.CoreCompileInputs.cache
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.csproj.CopyComplete
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.dll
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\ref\AdministradorRegistroVentas.dll
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.pdb
+C:\Users\Pc\Desktop\TPS LB II\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.genruntimeconfig.cache
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\AdministradorRegistroVentas.exe
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\AdministradorRegistroVentas.deps.json
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\AdministradorRegistroVentas.runtimeconfig.json
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\AdministradorRegistroVentas.runtimeconfig.dev.json
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\AdministradorRegistroVentas.dll
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\ref\AdministradorRegistroVentas.dll
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\AdministradorRegistroVentas.pdb
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\ExepcionesPropias.dll
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\TP_3_Ventas.dll
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\ExepcionesPropias.pdb
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\bin\Debug\net5.0-windows\TP_3_Ventas.pdb
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.csproj.AssemblyReference.cache
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.FormGuardarRegistro.resources
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.FormInforme.resources
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.FromInicio.resources
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.FormMenuAdministradorVentas.resources
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.FormNuevoRegistro.resources
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.csproj.GenerateResource.cache
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.AssemblyInfoInputs.cache
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.AssemblyInfo.cs
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.csproj.CoreCompileInputs.cache
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.csproj.CopyComplete
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.dll
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\ref\AdministradorRegistroVentas.dll
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.pdb
+C:\Users\Pc\Desktop\tps_laboratorio_ii\TP_03_S_Ariel_Limachi_R\AdministradorRegistroVentas\obj\Debug\net5.0-windows\AdministradorRegistroVentas.genruntimeconfig.cache
